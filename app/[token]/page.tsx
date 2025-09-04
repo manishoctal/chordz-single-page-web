@@ -17,11 +17,15 @@ export default function Home() {
           return
         }
 
-      } catch (error: any) {
-        if (error.response) {
-          console.warn("⚠️ API returned:", error.response.status, error.response.data);
+      } catch (error: unknown) {
+        if (axios.isAxiosError(error)) {
+          console.warn(
+            "⚠️ API returned:",
+            error.response?.status,
+            error.response?.data
+          );
         } else {
-          console.warn("⚠️ Network error:", error.message);
+          console.warn("⚠️ Unexpected error:", error);
         }
       }
     };

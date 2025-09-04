@@ -1,4 +1,4 @@
-# Chordz Deeplink
+# Chordz Single page web
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://git.octaldevs.com/chordz/chordz-deeplink.git
+git remote add origin https://git.octaldevs.com/chordz/chordz-single-page-web.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://git.octaldevs.com/chordz/chordz-deeplink/-/settings/integrations)
+- [ ] [Set up project integrations](https://git.octaldevs.com/chordz/chordz-single-page-web/-/settings/integrations)
 
 ## Collaborate with your team
 
